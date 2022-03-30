@@ -6,7 +6,7 @@ import urllib.request
 ##--------------------------
 def url_to_jpg(i, data, file_path):
     
-    df_name = data[[0]]
+    df_name = data[0]
     print(df_name)
 
     filename = df_name + '.jpg'.format(i)
