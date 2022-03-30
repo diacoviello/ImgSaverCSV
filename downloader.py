@@ -29,8 +29,6 @@ FILE_PATH = '../LegendsDexTrack/images/'
 data = pd.read_csv(FILE, delimiter=",")
 
 df = pd.DataFrame(data)
-# df_name = pd.DataFrame(data, columns=['Name'])
-# print(df_name)
 
 # Save images to directory by iterating through entire list
 for i, data in enumerate(data.values):
